@@ -5,7 +5,6 @@
 
 [Applications 添加插件应用说明-L大](https://www.right.com.cn/forum/thread-3682029-1-1.html)
 
-[hyird/All.usb.ipv6](http://op.hyird.xyz/)
 
 二次编译：
 ```bash
@@ -22,12 +21,19 @@ rm -rf ./tmp && rm -rf .config
 make menuconfig
 make -j$(($(nproc) + 1)) V=s
 ```
-差异文件：
+
+
+复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl + C 即可）
 ```bash
-make defconfig
+cd openwrt && make menuconfig
+```
+导出差异文件。
+```bash
 ./scripts/diffconfig.sh > seed.config
 cat seed.config
 ```
+
+完成后按快捷键Ctrl+D或执行exit命令退出
 ## Acknowledgments
 
 - [Microsoft](https://www.microsoft.com)
@@ -45,3 +51,4 @@ cat seed.config
 - [WeTransfer](https://wetransfer.com/)
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [hyird/Openwrt-AutoBuild](https://github.com/hyird/Action-Openwrt)
+- [coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
