@@ -50,5 +50,5 @@ cat seed.config
 - [WeTransfer](https://wetransfer.com/)
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [hyird/Openwrt-AutoBuild](https://github.com/hyird/Action-Openwrt)
-- [coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
+- [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/openwrt)
