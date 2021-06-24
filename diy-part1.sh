@@ -20,5 +20,8 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone https://github.com/fw876/helloworld package/ssr
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome                          package/adg
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/jd
+git clone https://github.com/garypang13/luci-app-dnsfilter package/dnsfilter
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/argon
+git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
 ./scripts/feeds update -a
 ./scripts/feeds install -a
